@@ -1,4 +1,4 @@
-# AI Engineer Work Simulation Exercise
+# Blueprint AI Work Simulation Exercise
 
 This repository contains a full-stack application scaffold for a work simulation exercise. The goal is to evaluate your ability to work with AI technologies and build a simple question-answering agent.
 
@@ -6,7 +6,7 @@ This repository contains a full-stack application scaffold for a work simulation
 
 The project consists of:
 - A React frontend (client)
-- A Node.js backend (api)
+- A NestJS backend (api)
 - A PostgreSQL database
 - A sample transcript for the AI agent to analyze
 
@@ -48,9 +48,9 @@ Your solution will be evaluated on:
 - Error handling and edge cases
 - Documentation and comments
 
-### Time Limit
+### Time Expectations
 
-You have 4 hours to complete this exercise. Focus on delivering a working solution that demonstrates your understanding of AI concepts and software engineering principles.
+Plan to spend about 4 hours to complete this exercise. Focus on delivering a working solution that demonstrates your understanding of AI concepts and software engineering principles.
 
 ## Project Structure
 
@@ -74,7 +74,7 @@ In the Client directory:
 ## Submission
 
 When you're done:
-1. Push your changes to your fork of this repository
+1. Push your changes to your fork of this repository and make it public
 2. Send us the link to your repository
 3. Include any additional notes or documentation about your implementation
 
