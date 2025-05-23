@@ -5,8 +5,8 @@ This repository contains a full-stack application scaffold for a work simulation
 ## Project Overview
 
 The project consists of:
-- A React frontend (client)
-- A NestJS backend (api)
+- A React frontend (`client`)
+- A NestJS backend (`api`)
 - A PostgreSQL database
 - A sample transcript for the AI agent to analyze
 
