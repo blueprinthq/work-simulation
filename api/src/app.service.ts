@@ -3,7 +3,11 @@ import { db } from './db/db';
 
 @Injectable()
 export class AppService {
-  async getHello(): Promise<string> {
+  getHello(): string {
+    return 'Hello World!';
+  }
+
+  async getUsers(): Promise<string> {
     const users = await db.selectFrom('users').selectAll().execute();
     return JSON.stringify(users);
   }

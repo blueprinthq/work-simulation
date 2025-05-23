@@ -11,7 +11,7 @@ function App() {
   const [users, setUsers] = useState<User[]>([])
 
   useEffect(() => {
-    fetch(import.meta.env.VITE_API_URL + '/')
+    fetch(import.meta.env.VITE_API_URL + '/users')
       .then((res) => res.json())
       .then(setUsers)
   }, [])
