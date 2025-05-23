@@ -14,4 +14,9 @@ export class AppController {
   async getUsers(): Promise<string> {
     return this.appService.getUsers();
   }
+
+  @Get('transcript')
+  async getTranscript(): Promise<string> {
+    return this.appService.getTranscript();
+  }
 }
