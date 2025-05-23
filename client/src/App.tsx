@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <h1>Users</h1>
+      <h1>Blueprint AI Work Simulation Exercise</h1>
       <pre>{JSON.stringify(users, null, 2)}</pre>
       <HStack>
         <Button>Click me</Button>
